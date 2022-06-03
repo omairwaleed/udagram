@@ -25,15 +25,15 @@ jobs:
           command: |
             npm run frontend:install            
       - run:
-          name: Back-End Install
+          name: api Install
           command: |
-            npm run backend:install
+            npm run api:install
       
       - run:
-          name: Back-End Build
+          name: api Build
           command: |
-            npm run backend:build
+            npm run api:build
       - run:
-          name: Back-End deploy
+          name: api deploy
           command: |
-            npm run Back-End:deploy        
+            npm run api:deploy        
