@@ -13,3 +13,4 @@ eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
 eb setenv db_port=$db_port
 eb setenv AWS_REGION=$AWS_REGION
 eb setenv AWS_BUCKET=$AWS_BUCKET
+eb setenv AWS_PROFIL=$AWS_PROFILE
