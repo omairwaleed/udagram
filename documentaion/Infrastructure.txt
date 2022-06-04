@@ -1,0 +1,4 @@
+## AWS services
+ Elastic Beanstalk to deploy backend(server)
+ S3 bucket to deploy static files (front end)
+ RDS to make our database

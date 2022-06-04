@@ -16,21 +16,7 @@ jobs:
       - node/install
       - aws-cli/setup
       - eb/setup
-      - run:
-      #install all dependencies in our front end
-          name: Front-End Install
-          command: |
-            npm run frontend:install
-      - run:
-      #build our front end app
-          name: Front-End build
-          command: |
-            npm run frontend:build
-      - run:
-       #deploy our front end app
-          name: Front-End deploy
-          command: |
-            npm run frontend:deploy            
+               
       - run:
       #install all dependencies in our front end
           name: api Install
@@ -47,3 +33,18 @@ jobs:
           name: api deploy
           command: |
             npm run api:deploy        
+       - run:
+      #install all dependencies in our front end
+          name: Front-End Install
+          command: |
+            npm run frontend:install
+      - run:
+      #build our front end app
+          name: Front-End build
+          command: |
+            npm run frontend:build
+      - run:
+       #deploy our front end app
+          name: Front-End deploy
+          command: |
+            npm run frontend:deploy        

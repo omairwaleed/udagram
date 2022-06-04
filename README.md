@@ -16,7 +16,7 @@ for backend:
  RDS to make our database
 ## Getting Started
 
-go to (link)[http://udagram-omair-2001.s3-website-us-east-1.amazonaws.com]
+go to (link)[http://udagrammm.s3-website-us-east-1.amazonaws.com]
 
 ### Dependencies
 

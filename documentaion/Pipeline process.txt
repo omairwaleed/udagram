@@ -1,0 +1,10 @@
+# PIPELINE PROCESS
+when app is pushed to git hub circle ci triggers it and start deploying our app by sequence of jobs which are:
+for front-end:
+    *install dependencies
+    *build app 
+    *deploy app  
+for backend:
+    *install dependencies
+    *build app 
+    *deploy app 
