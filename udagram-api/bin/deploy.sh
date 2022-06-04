@@ -4,10 +4,12 @@ cd www
 printenv > .env
 eb init --region $AWS_REGION $EP_APP
 eb deploy $EP_ENV
-eb setenv JWT_SECRET=omair
-eb setenv PORT=3000
-eb setenv POSTGRES_DB=udagram
-eb setenv POSTGRES_HOST=database-1.cppgss9en3mm.us-east-1.rds.amazonaws.com
-eb setenv POSTGRES_PASSWORD=omairwaleed
-eb setenv POSTGRES_USERNAME=postgres
-eb setenv db_port=5432
+eb setenv JWT_SECRET=$JWT_SECRET
+eb setenv PORT=$PORT
+eb setenv POSTGRES_DB=$POSTGRES_DB
+eb setenv POSTGRES_HOST=$POSTGRES_HOST
+eb setenv POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
+eb setenv db_port=$db_port
+eb setenv AWS_REGION=$AWS_REGION
+eb setenv AWS_BUCKET=$AWS_BUCKET
