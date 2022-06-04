@@ -1,6 +1,7 @@
-# Udagram
-
-This application is deployed using circle ci by diferent jobs:
+# AUTHOR
+Omair Waleed Hamdy
+# PIPELINE PROCESS
+when app is pushed to git hub circle ci triggers it and start deploying our app by sequence of jobs which are:
 for front-end:
     *install dependencies
     *build app 
@@ -9,10 +10,13 @@ for backend:
     *install dependencies
     *build app 
     *deploy app 
-
+## AWS services
+ Elastic Beanstalk to deploy backend(server)
+ S3 bucket to deploy static files (front end)
+ RDS to make our database
 ## Getting Started
 
-go to (link)[http://udagram-omair.s3-website-us-east-1.amazonaws.com]
+go to (link)[http://udagram-omair-2001.s3-website-us-east-1.amazonaws.com]
 
 ### Dependencies
 
